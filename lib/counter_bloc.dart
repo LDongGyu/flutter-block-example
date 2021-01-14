@@ -22,4 +22,22 @@ class CounterBloc extends Bloc<CounterEvent, int>{
       yield state-1;
     }
   }
+
+  @override
+  void onChange(Change<int> change) {
+    print(change);
+    super.onChange(change);
+  }
+
+  @override
+  void onError(Object error, StackTrace stackTrace) {
+    print('$error, $stackTrace');
+    super.onError(error, stackTrace);
+  }
+
+  @override
+  void onTransition(Transition<CounterEvent, int> transition) {
+    print(transition);
+    super.onTransition(transition);
+  }
 }
