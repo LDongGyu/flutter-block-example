@@ -5,7 +5,7 @@ import 'package:flutter_bloc_example/counter_bloc.dart';
 class CounterBlocScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final counterBloc = BlocProvider.of<CounterBloc>(context);
+    // final counterBloc = BlocProvider.of<CounterBloc>(context);
 
     return Scaffold(
       appBar: AppBar(
@@ -31,7 +31,7 @@ class CounterBlocScreen extends StatelessWidget {
               heroTag: null,
               child: Icon(Icons.add),
               onPressed: (){
-                counterBloc.add(IncrementCounter());
+                BlocProvider.of<CounterBloc>(context).add(IncrementCounter());
               }
           ),
           SizedBox(width: 10.0),
@@ -39,7 +39,7 @@ class CounterBlocScreen extends StatelessWidget {
               heroTag: null,
               child: Icon(Icons.remove),
               onPressed: (){
-                counterBloc.add(DecrementCounter());
+                BlocProvider.of<CounterBloc>(context).add(DecrementCounter());
               }
           ),
         ],
