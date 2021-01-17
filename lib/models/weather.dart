@@ -1,4 +1,6 @@
-class Weather {
+import 'package:equatable/equatable.dart';
+
+class Weather extends Equatable{
   final String weatherStateName;
   final String created;
   final double minTemp;
