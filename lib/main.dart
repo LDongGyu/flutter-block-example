@@ -8,6 +8,8 @@ import 'package:flutter_bloc_example/repositories/weather_repository.dart';
 import 'package:flutter_bloc_example/simple_cubit_observer.dart';
 import 'package:http/http.dart' as http;
 
+import 'cubits/settings_cubit.dart';
+
 void main() {
   Bloc.observer = SimpleCubitObserver();
 
@@ -31,6 +33,9 @@ class MyApp extends StatelessWidget {
         BlocProvider<WeatherCubit>(
           create: (context) =>
               WeatherCubit(weatherRepository: weatherRepository),
+        ),
+        BlocProvider<SettingsCubit>(
+          create: (context) => SettingsCubit(),
         ),
       ],
       child: MaterialApp(
