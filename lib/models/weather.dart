@@ -1,5 +1,6 @@
 import 'package:equatable/equatable.dart';
 
+// Equatable은 == 연산을 할 때 객체의 속성 값을 비교하여 return
 class Weather extends Equatable{
   final String weatherStateName;
   final String created;
@@ -21,6 +22,7 @@ class Weather extends Equatable{
     this.lastUpdated,
   });
 
+  // 아래 요소들을 비교함
   @override
   List<Object> get props => [
     weatherStateName,

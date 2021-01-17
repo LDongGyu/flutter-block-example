@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff3e1b3-e235-4623-9c6e-707c613ced8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/models/weather.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/weather.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/search_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/search_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/settings_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/settings_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,5 +74,9 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2081" y="344" key="SettingsEditor/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610864092777" />
+    <state x="2243" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1610864828831">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="2243" y="319" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610864828831" />
   </component>
 </project>
