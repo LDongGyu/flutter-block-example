@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_bloc_example/blocs/settings_bloc.dart';
 import 'package:flutter_bloc_example/blocs/weather_bloc.dart';
-import 'package:flutter_bloc_example/counter_bloc.dart';
+import 'file:///F:/0.github/flutter-block-example/lib/counter_exam/counter_bloc.dart';
 import 'package:flutter_bloc_example/cubits/weather_cubit.dart';
 import 'package:flutter_bloc_example/pages/home_page.dart';
 import 'package:flutter_bloc_example/repositories/weather_api_client.dart';

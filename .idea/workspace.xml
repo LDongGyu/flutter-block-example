@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff3e1b3-e235-4623-9c6e-707c613ced8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/blocs/settings_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blocs/settings_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/blocs/weather_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blocs/weather_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/counter_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_exam/counter_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/counter_bloc_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_exam/counter_bloc_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/counter_observer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_exam/counter_observer.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/settings_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/settings_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\0.github\flutter-block-example\lib\counter_exam" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
