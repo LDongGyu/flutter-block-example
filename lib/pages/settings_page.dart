@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_bloc_example/cubits/settings_cubit.dart';
+import 'package:flutter_bloc_example/blocs/settings_bloc.dart';
 
 class SettingsPage extends StatelessWidget {
   @override
@@ -9,17 +9,24 @@ class SettingsPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Settings'),
       ),
-      body: BlocBuilder<SettingsCubit, SettingsState>(
+      body: BlocBuilder<SettingsBloc, SettingsState>(
         builder: (context, state) {
           return Padding(
-            padding: EdgeInsets.only(left: 10, top: 20, right: 10),
+            padding: const EdgeInsets.only(
+              left: 10,
+              top: 20,
+              right: 10,
+            ),
             child: ListTile(
-              title: Text('Temperature Unit'),
-              subtitle: Text('Celcius or Farenheit\nDefault: Celcius'),
+              title: Text(
+                'Temperature Units',
+              ),
+              isThreeLine: true,
+              subtitle: Text('Celcius or Farenheight\nDefault: Celcius'),
               trailing: Switch(
                 value: state.temperatureUnit == TemperatureUnit.celcius,
                 onChanged: (_) {
-                  BlocProvider.of<SettingsCubit>(context).toggleTempUnit();
+                  BlocProvider.of<SettingsBloc>(context).add(SettingsToggled());
                 },
               ),
             ),

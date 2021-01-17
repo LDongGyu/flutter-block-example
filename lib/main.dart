@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_bloc_example/blocs/settings_bloc.dart';
+import 'package:flutter_bloc_example/blocs/weather_bloc.dart';
 import 'package:flutter_bloc_example/counter_bloc.dart';
 import 'package:flutter_bloc_example/cubits/weather_cubit.dart';
 import 'package:flutter_bloc_example/pages/home_page.dart';
@@ -30,16 +32,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
-        BlocProvider<WeatherCubit>(
+        BlocProvider<WeatherBloc>(
           create: (context) =>
-              WeatherCubit(weatherRepository: weatherRepository),
+              WeatherBloc(weatherRepository: weatherRepository),
         ),
-        BlocProvider<SettingsCubit>(
-          create: (context) => SettingsCubit(),
+        BlocProvider<SettingsBloc>(
+          create: (context) => SettingsBloc(),
         ),
       ],
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Weather',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
