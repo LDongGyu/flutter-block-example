@@ -11,6 +11,6 @@ class WeatherRepository{
     print('city in getWeather: $city');
     final int locationId = await weatherApiClient.getLocationId(city);
     print('locationId: $locationId');
-    weatherApiClient.fetchWeather(locationId);
+    return weatherApiClient.fetchWeather(locationId);
   }
 }

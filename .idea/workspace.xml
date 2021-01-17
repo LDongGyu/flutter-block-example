@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff3e1b3-e235-4623-9c6e-707c613ced8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/counter_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_exam/counter_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/counter_bloc_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_exam/counter_bloc_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/counter_observer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_exam/counter_observer.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/repositories/weather_api_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/repositories/weather_api_client.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/repositories/weather_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/repositories/weather_repository.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,33 +57,49 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2385" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610867396000" />
-    <state width="1674" height="282" key="GridCell.Tab.0.bottom" timestamp="1610872078031">
+    <state width="1674" height="282" key="GridCell.Tab.0.bottom" timestamp="1610874973417">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="282" key="GridCell.Tab.0.bottom/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610872078031" />
-    <state width="1674" height="282" key="GridCell.Tab.0.center" timestamp="1610872078031">
+    <state width="1674" height="282" key="GridCell.Tab.0.bottom/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610874973417" />
+    <state width="1674" height="282" key="GridCell.Tab.0.center" timestamp="1610874973417">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="282" key="GridCell.Tab.0.center/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610872078031" />
-    <state width="1674" height="282" key="GridCell.Tab.0.left" timestamp="1610872078031">
+    <state width="1674" height="282" key="GridCell.Tab.0.center/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610874973417" />
+    <state width="1674" height="282" key="GridCell.Tab.0.left" timestamp="1610874973417">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="282" key="GridCell.Tab.0.left/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610872078031" />
-    <state width="1674" height="282" key="GridCell.Tab.0.right" timestamp="1610872078031">
+    <state width="1674" height="282" key="GridCell.Tab.0.left/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610874973417" />
+    <state width="1674" height="282" key="GridCell.Tab.0.right" timestamp="1610874973417">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="282" key="GridCell.Tab.0.right/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610872078031" />
+    <state width="1674" height="282" key="GridCell.Tab.0.right/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610874973417" />
     <state x="2081" y="344" key="SettingsEditor" timestamp="1610869138583">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2081" y="344" key="SettingsEditor/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610869138583" />
-    <state x="2288" y="435" width="584" height="536" key="find.popup" timestamp="1610872308357">
+    <state x="2288" y="435" width="584" height="536" key="find.popup" timestamp="1610873369037">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2288" y="435" width="584" height="536" key="find.popup/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610872308357" />
+    <state x="2288" y="435" width="584" height="536" key="find.popup/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610873369037" />
     <state x="2243" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1610864828831">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2243" y="319" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610864828831" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/repositories/weather_api_client.dart</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/repositories/weather_api_client.dart</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
