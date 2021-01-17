@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_example/pages/search_page.dart';
+import 'package:flutter_bloc_example/pages/settings_page.dart';
 
 class HomePage extends StatelessWidget {
   @override
