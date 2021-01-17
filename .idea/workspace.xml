@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff3e1b3-e235-4623-9c6e-707c613ced8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/counter_observer.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/counter_bloc_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/counter_bloc_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +29,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -68,5 +66,9 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="1674" height="398" key="GridCell.Tab.0.right/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610619166118" />
+    <state x="2081" y="344" key="SettingsEditor" timestamp="1610864092777">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="2081" y="344" key="SettingsEditor/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610864092777" />
   </component>
 </project>
