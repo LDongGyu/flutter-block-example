@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff3e1b3-e235-4623-9c6e-707c613ced8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/weather.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/weather.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/search_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/search_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/settings_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/settings_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/repositories/weather_api_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/repositories/weather_api_client.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/repositories/weather_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/repositories/weather_repository.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R39M20DYWPZ]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -50,10 +51,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2385" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1610711849054">
+    <state x="2385" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1610867396000">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2385" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610711849054" />
+    <state x="2385" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1400/3440.-349.1200.1920@0.0.3440.1400" timestamp="1610867396000" />
     <state width="1674" height="398" key="GridCell.Tab.0.bottom" timestamp="1610619166119">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>

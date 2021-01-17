@@ -1,8 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_example/pages/search_page.dart';
 import 'package:flutter_bloc_example/pages/settings_page.dart';
+import 'package:flutter_bloc_example/repositories/weather_api_client.dart';
+import 'package:flutter_bloc_example/repositories/weather_repository.dart';
+import 'package:http/http.dart' as http;
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+
+  @override
+  void initState() {
+    super.initState();
+    getWeather();
+  }
+
+  getWeather() async{
+    final weatherRepository = WeatherRepository(
+      weatherApiClient: WeatherApiClient(httpClient: http.Client()),
+    );
+
+    final weather = await weatherRepository.getWeather('seoul');
+    print('weather in seoul: ${weather.toJson()}');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -71,4 +95,6 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
+
+
 }

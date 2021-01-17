@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_bloc_example/counter_bloc.dart';
-import 'package:flutter_bloc_example/counter_bloc_screen.dart';
 import 'package:flutter_bloc_example/counter_observer.dart';
+import 'package:flutter_bloc_example/pages/home_page.dart';
 
 void main() {
   Bloc.observer = CounterObserver();
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home: CounterBlocScreen(),
+        home: HomePage(),
       ),
     );
   }
